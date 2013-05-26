@@ -10,9 +10,10 @@ The data is processed by sending rednet messages ( event : `rednet_message` )
 When adding an item the message will probably look something like this : `iron add 10` or `iron remove 10`
 - Additional options ( which will also go by rednet messages ) may come later
 - notation always: `[object] [options] [args]`
-#### backup system
+
+### backup system
 Every time a message gets processed ( without errors ) the server writes the changes to txt files.
-#### validation
+### validation
 The first time a client connects, the server owner has to validate the computer id.
 
 ## license
